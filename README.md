@@ -178,3 +178,5 @@ link analysis algorithm 面臨最大的問題在於運算時間需要很大的�
 
 ### ➢ What you learned from this project and your comments about this project?
 實作出來的演算法計算速度遠遠不足實際上搜尋引擎的要求。在 project 中，我瞭解到搜尋引擎的運作原理。可以透過一些手段提升這些演算法分析出來的rank 。所以在搜尋引擎所找到的網站未必是真正重要的，這些網站也許是用了某些手段提升了 rank ,使得搜尋引擎比較推薦。
+
+<!-- ## END -->

@@ -103,7 +103,7 @@ Out Node: [1, 5]
 
 ## 4.Result
 ### Graph1 
-<img src="./images/Graph1_result.png" width="512" height="512"/>
+<img src="./image/Graph1_result.png" width="512" height="512"/>
 
 * Discussion:
     1. 由節點連線關係可以看的出來 Node1 並沒有被其他節點指向(推薦)，因此其 Authority 值為 0 ，其他節點都可以接收其父節點之 Hub 值為其Authority 值。
@@ -111,35 +111,35 @@ Out Node: [1, 5]
     3. 因此說明了如果對外指向的節點數愈多 Hub 就會有機會愈高，如果被愈多點指向則 Authority 將會有機會愈高。
 
 ### Graph2
-<img src="./images/Graph2_result.png" width="512" height="512"/>
+<img src="./image/Graph2_result.png" width="512" height="512"/>
 
 * Discussion:
     1. 因為這個 Graph 是一個環狀，每個節點都是被前一個節點指向，同時也指向下一個節點，沒有任何差異，因此不論在 Hub 及 Authority 皆為一致。
     2. 如果將此環狀架構打破一個 edge 那麼就會跟 graph1 一樣，最末端的節點 Hub 值為 0 ，最前端節點 Authority 為 0。
 
 ### Graph3
-<img src="./images/Graph3_result.png" width="512" height="512"/>
+<img src="./image/Graph3_result.png" width="512" height="512"/>
 
 * Discussion:
     1. 因為這個 Graph 是一個環狀，每個節點都是被前一個節點指向，同時也指向下一個節點，沒有任何差異，因此不論在 Hub 及 Authority 皆為一致。
     2. 如果將此環狀架構打破一個 edge 那麼就會跟 graph1 一樣，最末端的節點 Hub 值為 0 ，最前端節點 Authority 為 0。
 
 ### Graph4
-<img src="./images/Graph4_result.png" width="512" height="512"/>
+<img src="./image/Graph4_result.png" width="512" height="512"/>
 
 *  Discussion:
     1. 觀察 HUB 圖表,node1 推薦 2,3,4,5,7 這些高 authority 的 node,所以hub 值相對高於其他 node。node2 只推薦了 node1 這個低 authority的節點,因此 hub 值相對低於其他 node。
     2. 觀察 Authority 圖表,node3,5 兩個點被推薦的次數最多, 因此相較於其他節點 authority 是高的。Node6 只被 Node5 推薦，因此 Node6 之authority 相較其他節點為最低的。
 
 ### Graph5
-<img src="./images/Graph5_result.png" width="512" height="652"/>
+<img src="./image/Graph5_result.png" width="512" height="652"/>
 
 * Discussion:
     1. 觀察 HUB 圖表,node274 推薦 61,104,122…. 這些高 authority 的node 幾乎都推薦到了,所以 hub 值相對高於其他 node。沒有推薦其他節點的 node, hub 值皆為 0。
     2. 觀察 Authority 圖表,node6 被節點 274,176,412…. 推薦，這些高hub 值的 node 幾乎都推薦到了,所以 authority 值相對高於其他node。至於沒有被推薦的節點,authority 值為 0。
 
 ### Graph6
-<img src="./images/Graph6_result.png" width="512" height="652"/>
+<img src="./image/Graph6_result.png" width="512" height="652"/>
 
 * Discussion:
     1. 觀察 HUB 圖表,node171 推薦 761,1151,62…. 這些高 authority 的node 幾乎都推薦到了,所以 hub 值相對高於其他 node。完全沒有推薦其他節點的 node, hub 值皆為 0。
@@ -148,23 +148,23 @@ Out Node: [1, 5]
 ### Graph7 
 本資料的構成是由 project1 之 IBM dataset 構成，將每個 transaction 的各個 item 以單向連接到下一個 item，詳見 graph 
 
-<img src="./images/Graph7_result.png" width="512" height="752"/>
+<img src="./image/Graph7_result.png" width="512" height="752"/>
 
 * Discussion:
     1. 觀察 HUB 圖表,node851 推薦 2285,1694,2165…. 這些高authority 的 node 幾乎都推薦到了,所以 hub 值相對高於其他node。沒有推薦其他節點的 node, hub 值皆為 0。
     2. 觀察 Authority 圖表,node2885 被節點 851,1518,1175…. 推薦，這些高 hub 值的 node 幾乎都推薦到了,所以 authority 值相對高於其他 node。至於沒有被推薦的節點,authority 值為 0。
 
-<img src="./images/DM_Report3_page-0014.jpg" />
-<img src="./images/DM_Report3_page-0015.jpg" />
-<img src="./images/DM_Report3_page-0016.jpg" />
-<img src="./images/DM_Report3_page-0017.jpg" />
-<img src="./images/DM_Report3_page-0018.jpg" />
-<img src="./images/DM_Report3_page-0019.jpg" />
-<img src="./images/DM_Report3_page-0020.jpg" />
-<img src="./images/DM_Report3_page-0021.jpg" />
-<img src="./images/DM_Report3_page-0022.jpg" />
-<img src="./images/DM_Report3_page-0023.jpg" />
-<img src="./images/DM_Report3_page-0024.jpg" />
+<img src="./image/DM_Report3_page-0014.jpg" />
+<img src="./image/DM_Report3_page-0015.jpg" />
+<img src="./image/DM_Report3_page-0016.jpg" />
+<img src="./image/DM_Report3_page-0017.jpg" />
+<img src="./image/DM_Report3_page-0018.jpg" />
+<img src="./image/DM_Report3_page-0019.jpg" />
+<img src="./image/DM_Report3_page-0020.jpg" />
+<img src="./image/DM_Report3_page-0021.jpg" />
+<img src="./image/DM_Report3_page-0022.jpg" />
+<img src="./image/DM_Report3_page-0023.jpg" />
+<img src="./image/DM_Report3_page-0024.jpg" />
 
 ## 6. Discussion
 ### ➢ What are practical issues when implement these algorithms in a real Web? 

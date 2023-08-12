@@ -147,7 +147,8 @@ Out Node: [1, 5]
 
 ### Graph7 
 本資料的構成是由 project1 之 IBM dataset 構成，將每個 transaction 的各個 item 以單向連接到下一個 item，詳見 graph 
-<img src="./images/Graph7_result.png" width="512" height="652"/>
+
+<img src="./images/Graph7_result.png" width="512" height="752"/>
 
 * Discussion:
     1. 觀察 HUB 圖表,node851 推薦 2285,1694,2165…. 這些高authority 的 node 幾乎都推薦到了,所以 hub 值相對高於其他node。沒有推薦其他節點的 node, hub 值皆為 0。

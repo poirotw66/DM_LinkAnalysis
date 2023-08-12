@@ -154,7 +154,18 @@ Out Node: [1, 5]
     1. 觀察 HUB 圖表,node851 推薦 2285,1694,2165…. 這些高authority 的 node 幾乎都推薦到了,所以 hub 值相對高於其他node。沒有推薦其他節點的 node, hub 值皆為 0。
     2. 觀察 Authority 圖表,node2885 被節點 851,1518,1175…. 推薦，這些高 hub 值的 node 幾乎都推薦到了,所以 authority 值相對高於其他 node。至於沒有被推薦的節點,authority 值為 0。
 
-## PageRank ,SimRank, 5.How to Increase Hub, Authority and PageRank?詳情見PDF檔案
+<img src="./images/DM_Report3_page-0014.jpg" />
+<img src="./images/DM_Report3_page-0015.jpg" />
+<img src="./images/DM_Report3_page-0016.jpg" />
+<img src="./images/DM_Report3_page-0017.jpg" />
+<img src="./images/DM_Report3_page-0018.jpg" />
+<img src="./images/DM_Report3_page-0019.jpg" />
+<img src="./images/DM_Report3_page-0020.jpg" />
+<img src="./images/DM_Report3_page-0021.jpg" />
+<img src="./images/DM_Report3_page-0022.jpg" />
+<img src="./images/DM_Report3_page-0023.jpg" />
+<img src="./images/DM_Report3_page-0024.jpg" />
+
 ## 6. Discussion
 ### ➢ What are practical issues when implement these algorithms in a real Web? 
 想把這要應用到實際上網站上，面臨最關鍵的問題在於計算時間，這樣的分析所需計算時間會隨著節點數及邊數的提升而有快速成長的趨勢，而真實的搜尋引擎要處理的網站節點量可想而知是超出我們實驗範圍很多的，像是 google 隨便搜尋一個辭彙都會在 0.5 秒鐘內找出 5,000 多萬以上個符合網站，如此才能 提供使用者一個可接受的搜尋，但我們實驗中 |V| = 10,000, |E| = 10,000,000 就要跑個 半分鐘以上，實在是很難被使用者所接受，因此要把這樣的方法應用到實際的運作上存在難以克服的難度。
